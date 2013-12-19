@@ -10,7 +10,17 @@
 		<header id="position">
 			<nav>
 				<ul>
-					<li class="happy">Happy Wednesday.</li>
+					<li>
+						<script type="text/javascript">
+						  &lt;!-- 
+						  // Array of day names
+						  var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
+						  "Thursday","Friday","Saturday");
+						  var now = new Date();
+						  document.write("Happy " + dayNames[now.getDay()] + ".");
+						  // --&gt;
+						  </script>
+					</li>
 					<li><a href="#" class="light">Sign in</a></li>
 					<li><a href="#">System staus</a></li>
 					<li><a href="#">Follow us on Twitter</a></li>
@@ -24,21 +34,21 @@
 			<h1>Making collaboration productive and <br> enjoyable for people every day.</h1>
 			<h4>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h4>
 			<div id="products">
-				<div class="box">
+				<div class="box" style="margin-left: 120px">
 					<img src="img/logo-bc.png">
-					<h3><a href="#">Basecamp</a>&reg;</h3>
+					<h3><a href="#">Basecamp</a><span>&reg;</span></h3>
 					<h4>Manage Projects</h4>
 					<p>Used by millions for <br> project management.</p>
 				</div>
 				<div class="box">
 					<img src="img/logo-hr.png">
-					<h3><a href="#">Highrise</a>&#174;</h3>
+					<h3><a href="#">Highrise</a><span>&#174;</span></h3>
 					<h4>Manage Contacts</h4>
 					<p>Know the people you <br> do business with.</p>
 				</div>
 				<div class="box">
 					<img src="img/logo-cf.png">
-					<h3><a href="#">Campfire</a>&#8482;</h3>
+					<h3><a href="#">Campfire</a><span>&#8482;</span></h3>
 					<h4>Work in Real-Time</h4>
 					<p>Group chat rooms for <br>your business.</p>
 				</div>
