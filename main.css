@@ -94,10 +94,11 @@ h4 {
 	color: red;
 }
 
-.products {
+#products {
 	padding-top: 80px;
 	margin: 0 auto;
 	display: inline;
+	width: 700px;
 }
 
 
@@ -112,14 +113,18 @@ h4 {
 }
 
 .happy {
-	margin-top: 15px;
+	position: absolute;
+	left: 25px;
+	right: 5px;
 }
 
 .light {
 	color: lightblue;
 }
 
-
+#position {
+	position: relative;
+}
 
 
 
