@@ -5,19 +5,15 @@
 		<meta charset="utf-8">
 		<link href="main.css" rel="stylesheet">
 		<link rel="icon" type="image/png" href="google.png">
+		<script type="text/javascript" href="application.js"></script>
+		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+
 	</head>
 	<body>
 		<header id="position">
 			<nav>
 				<ul>
-					<li class="happy">
-						<script type="text/javascript">
-						  // Array of day names
-						  var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
-						  "Thursday","Friday","Saturday");
-						  var now = new Date();
-						  document.write("Happy " + dayNames[now.getDay()] + ".");
-						  </script>
+					<li id="day">
 					</li>
 					<li><a href="#" class="light">Sign in</a></li>
 					<li><a href="#">System staus</a></li>
@@ -30,21 +26,21 @@
 		<div class="container">
 			<img src="img/logo-37s-large.png">
 			<h1>Making collaboration productive and <br> enjoyable for people every day.</h1>
-			<h4>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</h4>
+			<br><p>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p>
 			<div id="products">
-				<div class="box" style="margin-left: 120px">
+				<div class="box right1" style="margin-left: 120px">
 					<img src="img/logo-bc.png">
 					<h3><a href="#">Basecamp</a><span>&reg;</span></h3>
 					<h4>Manage Projects</h4>
 					<p>Used by millions for <br> project management.</p>
 				</div>
-				<div class="box">
+				<div class="box right2">
 					<img src="img/logo-hr.png">
 					<h3><a href="#">Highrise</a><span>&#174;</span></h3>
 					<h4>Manage Contacts</h4>
 					<p>Know the people you <br> do business with.</p>
 				</div>
-				<div class="box">
+				<div class="box left">
 					<img src="img/logo-cf.png">
 					<h3><a href="#">Campfire</a><span>&#8482;</span></h3>
 					<h4>Work in Real-Time</h4>
@@ -52,5 +48,15 @@
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript">
+		  // Array of day names
+		  var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
+		  "Thursday","Friday","Saturday");
+		  var now = new Date();
+		  document.getElementById("#day").innerHTML = now;
+		  </script>
 	</body>
 </html>
+
+
+

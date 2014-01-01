@@ -51,6 +51,10 @@ table {
 
 /*End of CSS reset */
 
+
+/*nav*/
+
+
 li {
 	display: inline;
 	padding: 10px;
@@ -63,16 +67,30 @@ a {
 nav a {
 	padding: 5px;
 	float: right;
-	font-size: 14px;
+	font-size: 12px;
 	margin: 25px 30px 0 0;
-	color: blue
+	color: #369;
+	font-family: Lucida Grande;
 }
+
+nav img {
+	display: inline-block;
+}
+
+/*end of nav*/
+
+/*main section*/
 
 .container {
 	text-align: center;
 	padding-top: 100px;
 	width: 900px;
 	margin: 0 auto;
+}
+
+.container p {
+	font-size: 20px;
+	padding-top: 10px;
 }
 
 h1 {
@@ -91,19 +109,6 @@ h4 {
 	margin-bottom: 20px;
 }
 
-.box h3 a {
-	color: blue;
-	font-weight: bold;
-	font-size: 22px;
-	font-family: Lucida;
-}
-
-.box h4 {
-	font-size: 16px;
-	color: red;
-	font-family: Lucida;
-}
-
 #products {
 	margin: 0 auto;
 	display: inline;
@@ -111,18 +116,36 @@ h4 {
 	clear: both;
 }
 
+/*end of main section*/
+
+/*boxes */
+
 
 .box {
-	padding: 10px;
-	width: 170px;
-	border: .9px gray solid;
+	padding: 20px 10px;
+	width: 160px;
+	border: 1px solid #e8e8e8;
 	float: left;
-	margin: 20px;
-	background: linear-gradient(to bottom, #fff, #FFFFF0);
+	margin: 35px 20px 20px 20px;
+	background: linear-gradient(to bottom, #fff, #efefef);
+	border: 1px solid #FFF5EE;
 }
 
 .box a {
 	text-decoration: underline;
+}
+
+.box h3 a {
+	color: #369;
+	font-weight: bold;
+	font-size: 21px;
+	font-family: Lucida Grande;
+}
+
+.box h4 {
+	font-size: 16px;
+	color: #cc0000;
+	font-family: Lucida Grande;
 }
 
 li script {
@@ -132,7 +155,7 @@ li script {
 }
 
 .light {
-	color: lightblue;
+	color: #18afe0;
 }
 
 #position {
@@ -147,8 +170,14 @@ span {
 }
  
 .box p {
-	font-family: Lucida;
+	font-family: Lucida Grande;
+	font-size: 14px;
 }
+
+/*end of boxes*/
+
+
+
 
 
 
