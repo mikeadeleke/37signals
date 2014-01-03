@@ -1,21 +1,10 @@
 $(document).ready(function() {
 	$(".right1").hover(function() {
-		$(this).mouseenter(function() {
-			$(this).prepend('<img src="img/arrow-right.png" />');
-			$(this).find("h1:first-child").text("<span>Basecamp</span> is the project management tool you wish you had on your last project.");
-			$(this).find("p:first-child").text("");
-		})
-	}, function() {
-		$(this).mouseleave(function() {
-			$(this).prepend('<img src="img/arrow-right.png" />');
-			$(this).find("h1:first-child").text("<span>Basecamp</span> is the project management tool you wish you had on your last project.");
-			$(this).find("p:first-child").text("");
-		})
-	}); 
-
-
+		$(this).prepend('<img src="img/arrow-right.png" />');
+		$(this).find("h1:first-child").text("<span>Basecamp</span> is the project management tool you wish you had on your last project.");
+		$(this).find("p:first-child").text("")
+	});
 	
-
 	$(".right2").hover(function() {
 		$(this).prepend('<img src="img/arrow-right.png" />');
 		$(this).find("h1:first-child").text("<span>Basecamp</span> is the project management tool you wish you had on your last project.");

@@ -118,6 +118,31 @@ h4 {
 
 /*end of main section*/
 
+/*jQuery magic :) */
+
+.hidden {
+	/*display: none;*/
+}
+
+.basecamp, .highrise, .campfire {
+	h2 {
+		font-size: 30px;
+		font-family: Lucida Grande;
+		font-weight: bold;
+	}
+
+	p {
+		font-size: 14px;
+		font-family: Lucide Grande;
+	}
+}
+
+
+
+
+/*End of jQuery magic */
+
+
 /*boxes */
 
 
