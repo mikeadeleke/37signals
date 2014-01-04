@@ -124,7 +124,7 @@ h4 {
 	display: none;
 }
 
-.main-event, .basecamp. .campfire, .highrise {
+.main-event, .basecamp, .campfire, .highrise {
 	height: 200px;
 }
 
@@ -236,6 +236,30 @@ span {
 	font-size: 14px;
 }
 
+.arrow1, .arrow2, .arrow3 {
+	float: left;
+	position: absolute;
+	z-index: 9999;
+	border: 0;
+	color: transparent;
+	width: 69px;
+	height: 69px;
+}
+
+.arrow1 {
+	left: 455px;
+	top: 285px;
+}
+
+.arrow2 {
+	left: 680px;
+	top: 285px;
+}
+
+.arrow3 {
+	left: 745px;
+	top: 285px;
+}
 /*end of boxes*/
 
 
