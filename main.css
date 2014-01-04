@@ -121,25 +121,56 @@ h4 {
 /*jQuery magic :) */
 
 .hidden {
-	/*display: none;*/
+	display: none;
 }
 
-.basecamp, .highrise, .campfire {
-	h2 {
-		font-size: 30px;
+.basecamp h2 {
+		font-size: 46px;
+		font-family: "CrimsonSemibold";
+		font-weight: 500;
+}
+
+.highrise h2 {
+		font-size: 46px;
+		font-family: "CrimsonSemibold";
+		font-weight: 500;
+}
+
+.campfire h2 {
+		font-size: 46px;
+		font-family: "CrimsonSemibold";
+		font-weight: 500;
+}
+
+.basecamp p {
+		font-size: 15px;
 		font-family: Lucida Grande;
-		font-weight: bold;
-	}
-
-	p {
-		font-size: 14px;
-		font-family: Lucide Grande;
-	}
 }
 
+.highrise p {
+		font-size: 15px;
+		font-family: Lucida Grande;
+}
 
+.campfire p {
+		font-size: 15px;
+		font-family: Lucida Grande;
+}
 
+.basecamp a {
+	color: #369;
+	text-decoration: underline;
+}
 
+.highrise a {
+	color: #369;
+	text-decoration: underline;
+}
+
+.campfire a {
+	color: #369;
+	text-decoration: underline;
+}
 /*End of jQuery magic */
 
 
