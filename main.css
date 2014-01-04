@@ -200,6 +200,7 @@ h4 {
 	margin: 35px 20px 20px 20px;
 	background: linear-gradient(to bottom, #fff, #efefef);
 	border: 1px solid #FFF5EE;
+	position: relative;
 }
 
 .box a {
@@ -247,7 +248,7 @@ span {
 
 .arrow1, .arrow2, .arrow3 {
 	float: left;
-	position: absolute;
+	position: fixed;
 	z-index: 9999;
 	border: 0;
 	color: transparent;
