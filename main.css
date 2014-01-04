@@ -77,6 +77,15 @@ nav img {
 	display: inline-block;
 }
 
+#day {
+	padding: 5px;
+	vertical-align: baseline;
+	float: left;
+	margin: 25px 0 0 35px;
+	font-size: 12px;
+	color: gray;
+	font-family: Lucida Grande;
+}
 /*end of nav*/
 
 /*main section*/
