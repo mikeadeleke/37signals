@@ -247,8 +247,7 @@ span {
 }
 
 .arrow1, .arrow2, .arrow3 {
-	float: left;
-	position: fixed;
+	position: absolute;
 	z-index: 9999;
 	border: 0;
 	color: transparent;
@@ -257,18 +256,18 @@ span {
 }
 
 .arrow1 {
-	left: 455px;
-	top: 285px;
+	left: 150px;
+	top: -40px;
 }
 
 .arrow2 {
-	left: 680px;
-	top: 285px;
+	left: 150px;
+	top: -40px;
 }
 
 .arrow3 {
-	left: 745px;
-	top: 285px;
+	left: -5px;
+	top: -40px;
 }
 /*end of boxes*/
 
